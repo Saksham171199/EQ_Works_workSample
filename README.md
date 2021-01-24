@@ -1,6 +1,9 @@
 # EQ_Works_workSample
 Data Role
 
+IMPORTANT NOTE: If you want to run the code "Requests.py", please use the files "DataSample.csv" and "POIList.csv" that I provided in 
+                this repository. I made some minor modifications to the column names (removed whitespaces for example) 
+                that are needed for my code to run. DO NOT USE THE ORIGINAL FILES PROVIDED, the code will raise errors.
 1) Cleanup
   - Cleaned the sample dataset by removing requests with same [Latitude, Longitude, Timest]
   - In the POI List file, POI1 and POI3 have the same geoinfo, hence are the same POI,
